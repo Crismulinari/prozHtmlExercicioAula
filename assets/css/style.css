@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    display: flex;
+}
+.navegacao{
+    display: flex;
+    list-style: none;
+    margin: 2rem;
+}
+header nav ul li a{   
+    text-decoration: none;
+}
+#principal { 
+    color: blue;
+    font-size: 3rem;
+    margin-top: 5px;
+    margin-left: 36%;
+    font-weight: 900;
+    position: absolute;    
+}
+footer{
+    background: lightblue;
+    display: flex;         
+    color: white;
+    padding: 1rem;  
+    justify-content: space-between;
+    align-items: flex-start;
+    font-size: 12px;
+}
